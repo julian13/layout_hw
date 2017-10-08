@@ -1,0 +1,45 @@
+body { width: 800px;
+margin: auto;
+color: white;
+}
+
+header {background: blue;
+height: 50px;
+text-align: center;
+}
+
+nav {background: green;
+height: 25px;
+}
+
+
+li {display: inline;
+margin: 10px;
+}
+
+a {color: white}
+
+article {width: 66.7%;
+background: pink;
+text-align: center;
+padding-bottom: 20px;
+}
+
+section {
+background: red;
+height: 50px;
+margin-top: 10px;
+}
+
+aside { width: 33.3%;
+background: cyan;
+height: 150px;
+text-align: center;
+float:right;
+}
+
+footer {background-color: green;
+height: 25px;
+text-align: center;
+}
+
