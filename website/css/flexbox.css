@@ -1,15 +1,23 @@
-body { width: 800px;
+body {
 margin: auto;
 color: white;
+  min-width: 200px;
+  max-width: 800px;
+  flex-basis: auto; /* default value */
+  flex-grow: 1;
 }
 
 header {background: blue;
 height: 50px;
 text-align: center;
+justify-content: center;
 }
 
 nav {background: green;
-height: 25px;
+padding: 10px;
+  display: flex;
+  justify-content: space-around;
+flex-wrap: wrap;
 }
 
 
@@ -29,13 +37,14 @@ section {
 background: red;
 height: 50px;
 margin-top: 10px;
+order:2;
 }
 
 aside { width: 33.3%;
 background: cyan;
-height: 150px;
+height: 156px;
 text-align: center;
-float:right;
+margin-left: auto;
 }
 
 footer {background-color: green;
@@ -43,3 +52,4 @@ height: 25px;
 text-align: center;
 }
 
+.flexbox1{display:flex}
