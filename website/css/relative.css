@@ -1,7 +1,6 @@
 body { width: 800px;
 margin: auto;
 color: white;
-position: relative;
 }
 
 header {background: blue;
@@ -36,9 +35,10 @@ aside { width: 33.3%;
 background: cyan;
 height: 156px;
 text-align: center;
-float:right;
 position: relative;
 bottom: 156px;
+margin-bottom: -156px;
+left: 66.7%;
 }
 
 footer {background-color: green;
