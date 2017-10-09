@@ -1,10 +1,9 @@
 body {
 margin: auto;
 color: white;
-  min-width: 200px;
-  max-width: 800px;
-  flex-basis: auto; /* default value */
-  flex-grow: 1;
+min-width: 200px;
+max-width: 800px;
+flex-grow: 1;
 }
 
 header {background: blue;
@@ -14,9 +13,8 @@ justify-content: center;
 }
 
 nav {background: green;
-padding: 10px;
+padding-bottom: 10px;
   display: flex;
-  justify-content: space-around;
 flex-wrap: wrap;
 }
 
